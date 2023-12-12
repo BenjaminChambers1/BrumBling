@@ -1,0 +1,27 @@
+{
+  "name": "birmingham-bling-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "deploy": "rsync -az ~/Documents/Projects/Birmingham_Bling/bb-be BB:/home/ubuntu/backend"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1516.0",
+    "aws-serverless-express": "^3.4.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cron": "^3.1.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^2.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}

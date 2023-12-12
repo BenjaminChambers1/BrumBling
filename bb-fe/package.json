@@ -1,0 +1,27 @@
+{
+	"name": "birmingham-bling-fe",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"deploy": "rsync -az ~/Documents/Projects/Birmingham_Bling/bb-fe/build BB:/var/www/html"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.27.4",
+		"svelte": "^4.2.7",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.5.1",
+		"axios": "^1.6.2",
+		"browser-image-compression": "^2.0.2",
+		"just-debounce-it": "^3.2.0",
+		"litepicker": "^2.0.12",
+		"luxon": "^3.4.4"
+	}
+}

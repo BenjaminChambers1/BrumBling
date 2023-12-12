@@ -1,0 +1,59 @@
+/* Variables */
+:root {
+    --main: #FF5E37;
+    --secondary: #FDFDFD;
+    --accent: #010101;
+    --accent-2: #4C4C4C;
+    --off: #F2BDAD;
+    --special: #96A8D7;
+    --off-white: #eeeeee;
+    --light-grey: #E9E9E9;
+    --green: #329a59;
+    --red: #d85c54;
+}
+i {
+    cursor: pointer;
+}
+
+input {
+    padding: 0.25rem;
+    width: calc(100% - 0.5rem);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.main-background {
+    background-color: var(--off-white);
+    min-height: calc(100vh - 2.5rem);
+    position: relative;
+}
+
+.main-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+button, .button {
+    cursor: pointer;
+    background-color: var(--accent) !important;
+    color: var(--secondary);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-container  {
+        padding: 0 0.5rem 0.5rem 0.5rem;
+    }
+}
